@@ -66,3 +66,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Dependency on Backend
+This App has dependency on the <a href="https://github.com/Abhivirusonline/memegenerator-backend">Memegenerator-backend</a>
