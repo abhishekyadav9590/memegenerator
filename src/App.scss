@@ -1,0 +1,36 @@
+$bodyColor:#f0f2f5;
+body{
+    background-color: $bodyColor;
+}
+
+.hidden{
+    visibility: hidden;
+}
+.hide{
+    display: none;
+}
+.show.dropdown>.dropdown-menu {
+    left: auto;
+    right: 0;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    left: auto;
+    right: 0;
+}
+.Profile{
+    max-width: 300px;
+    margin: auto;
+    border-radius: 6px;
+    background-color: white;
+}
+.Creator{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Creator > div{
+    padding: 10px 15px;
+}
+.Creator img{
+    height: calc(100% - 34px);
+}

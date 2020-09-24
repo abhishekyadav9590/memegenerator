@@ -1,9 +1,0 @@
-.show.dropdown>.dropdown-menu {
-    left: auto;
-    right: 0;
-}
-.dropdown:hover>.dropdown-menu {
-    display: block;
-    left: auto;
-    right: 0;
-}

@@ -3,7 +3,7 @@ import {
     Form, FormGroup, FormLabel, FormText, FormControl,
     Button, ListGroup, ListGroupItem, Spinner
 } from "react-bootstrap";
-import "./Login.css"
+import "./Login.scss"
 import constant from "../../config/constant";
 import {LoginUser} from "../../Actions/authAction";
 import {Link} from "react-router-dom";

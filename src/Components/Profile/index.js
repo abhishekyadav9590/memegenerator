@@ -17,7 +17,7 @@ class   Profile extends Component{
         return (
             <section className={"p-3 text-center"}>
                 <div className={"Profile border p-3"}>
-                    <Image src={user.photoURL} className={"rounded-circle"} width={"150px"} onError={()=>{}}/>
+                    <Image src={user.photoURL} className={"rounded-circle"} width={"150px"} height={"150px"} onError={()=>{}}/>
                     <h3 className={"mt-2"}>
                         {user.displayName}
                     </h3>

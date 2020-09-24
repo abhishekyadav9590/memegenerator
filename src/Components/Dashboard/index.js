@@ -1,4 +1,5 @@
 import React,{Component} from "react";
+import './dashboard.scss';
 import {connect} from "react-redux"
 import {Route, Switch} from "react-router-dom";
 import {fetchUser} from "../../Actions/userAction";
@@ -19,6 +20,13 @@ class Dashboard extends Component{
                     <Route exact path={"/profile"} component={Profile}/>
                     <Route exact path={"/create"} component={Create}/>
                 </Switch>
+                <div className="dashboard-content m-auto">
+                    <ul className="card-container list-unstyled">
+                        <li>
+                            <div className="bg-white card"></div>
+                        </li>
+                    </ul>
+                </div>
                 <Footer/>
             </div>
         )
