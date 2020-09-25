@@ -3,10 +3,10 @@ import {FETCH_USER} from "./action.Types";
 import constant from "../config/constant";
 import {toast} from "react-toastify";
 
-export const fetchUser=()=>dispath=>{
+export const fetchUser=()=>dispatch=>{
     axiosInstance.get(constant.user)
         .then(result=>{
-            dispath({
+            dispatch({
                 type:FETCH_USER,
                 data:result.data
             });

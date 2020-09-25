@@ -27,10 +27,13 @@ body{
 .Creator{
     margin-left: 10px;
     margin-right: 10px;
-}
-.Creator > div{
-    padding: 10px 15px;
-}
-.Creator img{
-    height: calc(100% - 34px);
+    & > div{
+       padding: 10px 15px;
+    }
+    .Container{
+        margin: 0 auto;
+        text-align: center;
+        border:1px dashed #f3f3f4;
+        height: calc(100% - 50px);
+    }
 }

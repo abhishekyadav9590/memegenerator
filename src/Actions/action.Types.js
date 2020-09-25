@@ -1,2 +1,6 @@
 export const FETCH_USER='FETCH_USER';
 export const LOGIN_USER='LOGIN_USER';
+export const LOAD_FILE='LOAD_FILE';
+export const CHANGE_TEXT='CHANGE_TEXT';
+export const CHANGE_COLOR='CHANGE_COLOR';
+export const CHANGE_OUTLINE='CHANGE_OUTLINE';

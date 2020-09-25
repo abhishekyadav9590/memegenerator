@@ -18,14 +18,10 @@ class Dashboard extends Component{
                 <NavBar history={this.props.history} user={user}/>
                 <Switch>
                     <Route exact path={"/profile"} component={Profile}/>
-                    <Route exact path={"/create"} component={Create}/>
+                    <Route exact path={"/"} component={Create}/>
                 </Switch>
                 <div className="dashboard-content m-auto">
-                    <ul className="card-container list-unstyled">
-                        <li>
-                            <div className="bg-white card"></div>
-                        </li>
-                    </ul>
+                    {/*------------------ To be done later ---------*/}
                 </div>
                 <Footer/>
             </div>

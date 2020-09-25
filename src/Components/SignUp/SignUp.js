@@ -37,7 +37,6 @@ class SignUp extends Component{
         this.setState({
             registering:true
         })
-        console.log(new Array(event.target[2]));
         RegisterUser(this.state,this.props.history,this.handleRegistrationStates)
     }
 

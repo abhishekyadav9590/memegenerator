@@ -13,7 +13,6 @@ class   Profile extends Component{
     }
     render() {
         const {user}=this.props;
-        console.log('User in profile ',user);
         return (
             <section className={"p-3 text-center"}>
                 <div className={"Profile border p-3"}>

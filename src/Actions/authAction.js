@@ -23,7 +23,6 @@ export const RegisterUser = (data,history,handleRegistrationStates) => {
     })
         .then(result => {
             handleRegistrationStates();
-            console.log(result)
             // history.push('/otp')
     })
         .catch(err => {

@@ -8,6 +8,6 @@ const store=createStore(
     composeWithDevTools(applyMiddleware(thunk))
 );
 store.subscribe(()=>{
-    console.log('store has changed :'+store.getState())
+    store.getState()
 })
 export default store;

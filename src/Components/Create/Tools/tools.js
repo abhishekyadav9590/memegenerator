@@ -1,6 +1,13 @@
 import React,{Component} from "react";
+import {loadFile} from "../../../Actions/file.Action";
+import {connect} from "react-redux";
 class Tools extends Component{
-
+    constructor(props) {
+        super(props);
+    }
+    handleFileChange=e=>{
+        this.props.loadFile(e.target.files[0]);
+    }
     render() {
         return(
             <div className={"tools bg-success border"} style={{width:"300px"}} tabIndex={"1"}>
@@ -9,11 +16,18 @@ class Tools extends Component{
                     <label htmlFor={'imageupload'} className={'btn btn-info text-left'}>
                         <i className="fa fa-photo"></i> Upload
                     </label>
-                <input type="file" className={"hide"} accept={'image/*'} id={'imageupload'}/>
+                <input type="file" className={"hide"} accept={'image/*'} id={'imageupload'} onChange={this.handleFileChange}/>
                 </div>
             </div>
         )
     }
 }
 
-export default Tools;
+const mapStateToProps=state=>{
+    return {file:state.fileReducer.file}
+}
+const mapDispatchToProps={
+    loadFile
+}
+
+export default connect(mapStateToProps,mapDispatchToProps)(Tools);

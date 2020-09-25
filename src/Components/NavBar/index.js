@@ -27,12 +27,9 @@ class NavBar extends Component{
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className={"ml-auto"}>
                             <NavDropdown title={displayName} id="collasible-nav-dropdown">
-                                    <Link to={"/create"} className={"dropdown-item"}>
-                                        Create
-                                    </Link>
-                                    <Link to={"/dashboard"} className={"dropdown-item"}>
-                                    Dashboard
-                                    </Link>
+                                    {/*<Link to={"/dashboard"} className={"dropdown-item"}>*/}
+                                    {/*Dashboard*/}
+                                    {/*</Link>*/}
                                     <Link to={"/profile"} className={"dropdown-item"}>
                                     Profile
                                     </Link>

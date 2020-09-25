@@ -36,24 +36,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ef513af-a2e9-4c38-bc60-9829d85fe6ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashboard/dashboard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Actions/file.Action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/fileReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actions/action.Types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/action.Types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actions/authAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/authAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actions/userAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/userAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Create/Filter/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Create/Filter/filters.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Create/Tools/tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Create/Tools/tools.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Create/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Create/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Dashboard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashboard/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Login/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Login/Login.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/NavBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavBar/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Profile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SignUp/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SignUp/SignUp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middleWares/logger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/middleWares/logger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/rootReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,8 +66,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="Sass File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -98,6 +99,7 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -163,7 +165,8 @@
       <workItem from="1600264667103" duration="1306000" />
       <workItem from="1600666808819" duration="114000" />
       <workItem from="1600707017969" duration="4412000" />
-      <workItem from="1600883773341" duration="1928000" />
+      <workItem from="1600883773341" duration="16674000" />
+      <workItem from="1601017823468" duration="7856000" />
     </task>
     <servers />
   </component>
@@ -183,10 +186,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="100" y="125" width="1166" height="510" maximized="true" key="DiffContextDialog" timestamp="1600971789018">
+    <state x="100" y="125" width="1166" height="510" maximized="true" key="DiffContextDialog" timestamp="1601018669556">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state x="100" y="125" width="1166" height="510" maximized="true" key="DiffContextDialog/0.27.1366.708@0.27.1366.708" timestamp="1600971789018" />
+    <state x="100" y="125" width="1166" height="510" maximized="true" key="DiffContextDialog/0.27.1366.708@0.27.1366.708" timestamp="1601018669556" />
     <state x="318" y="157" width="719" height="445" key="EditFileWatcherDialog" timestamp="1600710366165">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
@@ -195,22 +198,22 @@
       <screen x="0" y="27" width="1366" height="708" />
     </state>
     <state x="466" y="138" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.708@0.27.1366.708" timestamp="1600971729612" />
-    <state width="1343" height="430" key="GridCell.Tab.0.bottom" timestamp="1600971699305">
+    <state width="1343" height="430" key="GridCell.Tab.0.bottom" timestamp="1601021281284">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1343" height="430" key="GridCell.Tab.0.bottom/0.27.1366.708@0.27.1366.708" timestamp="1600971699305" />
-    <state width="1343" height="430" key="GridCell.Tab.0.center" timestamp="1600971699302">
+    <state width="1343" height="430" key="GridCell.Tab.0.bottom/0.27.1366.708@0.27.1366.708" timestamp="1601021281284" />
+    <state width="1343" height="430" key="GridCell.Tab.0.center" timestamp="1601021281282">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1343" height="430" key="GridCell.Tab.0.center/0.27.1366.708@0.27.1366.708" timestamp="1600971699302" />
-    <state width="1343" height="430" key="GridCell.Tab.0.left" timestamp="1600971699301">
+    <state width="1343" height="430" key="GridCell.Tab.0.center/0.27.1366.708@0.27.1366.708" timestamp="1601021281282" />
+    <state width="1343" height="430" key="GridCell.Tab.0.left" timestamp="1601021281281">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1343" height="430" key="GridCell.Tab.0.left/0.27.1366.708@0.27.1366.708" timestamp="1600971699301" />
-    <state width="1343" height="430" key="GridCell.Tab.0.right" timestamp="1600971699304">
+    <state width="1343" height="430" key="GridCell.Tab.0.left/0.27.1366.708@0.27.1366.708" timestamp="1601021281281" />
+    <state width="1343" height="430" key="GridCell.Tab.0.right" timestamp="1601021281283">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1343" height="430" key="GridCell.Tab.0.right/0.27.1366.708@0.27.1366.708" timestamp="1600971699304" />
+    <state width="1343" height="430" key="GridCell.Tab.0.right/0.27.1366.708@0.27.1366.708" timestamp="1601021281283" />
     <state x="467" y="63" width="422" height="633" key="RollbackChangesDialog" timestamp="1600710692208">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
@@ -219,13 +222,25 @@
       <screen x="0" y="27" width="1366" height="708" />
     </state>
     <state x="172" y="27" key="SettingsEditor/0.27.1366.708@0.27.1366.708" timestamp="1599915400580" />
-    <state x="374" y="119" width="618" height="522" key="find.popup" timestamp="1600971649769">
+    <state x="486" y="58" width="384" height="643" key="VCS.ChangeListViewerDialog" timestamp="1600972038618">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state x="374" y="119" width="618" height="522" key="find.popup/0.27.1366.708@0.27.1366.708" timestamp="1600971649769" />
-    <state x="346" y="56" width="672" height="678" key="search.everywhere.popup" timestamp="1600710588802">
+    <state x="486" y="58" width="384" height="643" key="VCS.ChangeListViewerDialog/0.27.1366.708@0.27.1366.708" timestamp="1600972038618" />
+    <state x="293" y="27" width="770" height="708" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601020220268">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state x="346" y="56" width="672" height="678" key="search.everywhere.popup/0.27.1366.708@0.27.1366.708" timestamp="1600710588802" />
+    <state x="293" y="27" width="770" height="708" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.708@0.27.1366.708" timestamp="1601020220268" />
+    <state x="464" y="295" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601019559629">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state x="464" y="295" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.708@0.27.1366.708" timestamp="1601019559629" />
+    <state x="374" y="119" width="618" height="522" key="find.popup" timestamp="1601025598905">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state x="374" y="119" width="618" height="522" key="find.popup/0.27.1366.708@0.27.1366.708" timestamp="1601025598905" />
+    <state x="346" y="56" width="672" height="678" key="search.everywhere.popup" timestamp="1601022822852">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state x="346" y="56" width="672" height="678" key="search.everywhere.popup/0.27.1366.708@0.27.1366.708" timestamp="1601022822852" />
   </component>
 </project>
