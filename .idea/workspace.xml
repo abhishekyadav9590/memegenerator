@@ -36,26 +36,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ef513af-a2e9-4c38-bc60-9829d85fe6ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Actions/file.Action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/fileReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actions/action.Types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/action.Types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actions/authAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/authAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actions/userAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/userAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Create/Filter/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Create/Filter/filters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Create/Tools/tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Create/Tools/tools.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Create/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Create/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashboard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashboard/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NavBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavBar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SignUp/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SignUp/SignUp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middleWares/logger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/middleWares/logger.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/rootReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +147,7 @@
       <workItem from="1600666808819" duration="114000" />
       <workItem from="1600707017969" duration="4412000" />
       <workItem from="1600883773341" duration="16674000" />
-      <workItem from="1601017823468" duration="7856000" />
+      <workItem from="1601017823468" duration="8578000" />
     </task>
     <servers />
   </component>
@@ -198,22 +179,22 @@
       <screen x="0" y="27" width="1366" height="708" />
     </state>
     <state x="466" y="138" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.708@0.27.1366.708" timestamp="1600971729612" />
-    <state width="1343" height="430" key="GridCell.Tab.0.bottom" timestamp="1601021281284">
+    <state width="1343" height="430" key="GridCell.Tab.0.bottom" timestamp="1601030759344">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1343" height="430" key="GridCell.Tab.0.bottom/0.27.1366.708@0.27.1366.708" timestamp="1601021281284" />
-    <state width="1343" height="430" key="GridCell.Tab.0.center" timestamp="1601021281282">
+    <state width="1343" height="430" key="GridCell.Tab.0.bottom/0.27.1366.708@0.27.1366.708" timestamp="1601030759344" />
+    <state width="1343" height="430" key="GridCell.Tab.0.center" timestamp="1601030759341">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1343" height="430" key="GridCell.Tab.0.center/0.27.1366.708@0.27.1366.708" timestamp="1601021281282" />
-    <state width="1343" height="430" key="GridCell.Tab.0.left" timestamp="1601021281281">
+    <state width="1343" height="430" key="GridCell.Tab.0.center/0.27.1366.708@0.27.1366.708" timestamp="1601030759341" />
+    <state width="1343" height="430" key="GridCell.Tab.0.left" timestamp="1601030759337">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1343" height="430" key="GridCell.Tab.0.left/0.27.1366.708@0.27.1366.708" timestamp="1601021281281" />
-    <state width="1343" height="430" key="GridCell.Tab.0.right" timestamp="1601021281283">
+    <state width="1343" height="430" key="GridCell.Tab.0.left/0.27.1366.708@0.27.1366.708" timestamp="1601030759337" />
+    <state width="1343" height="430" key="GridCell.Tab.0.right" timestamp="1601030759343">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1343" height="430" key="GridCell.Tab.0.right/0.27.1366.708@0.27.1366.708" timestamp="1601021281283" />
+    <state width="1343" height="430" key="GridCell.Tab.0.right/0.27.1366.708@0.27.1366.708" timestamp="1601030759343" />
     <state x="467" y="63" width="422" height="633" key="RollbackChangesDialog" timestamp="1600710692208">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
